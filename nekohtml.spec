@@ -30,7 +30,7 @@
 
 Name:           nekohtml
 Version:        1.9.14
-Release:        12%{?dist}
+Release:        13%{?dist}
 Epoch:          0
 Summary:        HTML scanner and tag balancer
 License:        ASL 2.0
@@ -142,6 +142,9 @@ cp -a build/doc/javadoc/* $RPM_BUILD_ROOT%{_javadocdir}/%{name}
 %{_javadir}/%{name}-samples.jar
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 01.9.14-13
+- Mass rebuild 2013-12-27
+
 * Fri Jun 28 2013 Mikolaj Izdebski <mizdebsk@redhat.com> - 0:1.9.14-12
 - Rebuild to regenerate API documentation
 - Resolves: CVE-2013-1571
